@@ -34,11 +34,11 @@ public class SendMailSSL {
 		try {
  
 			Message message = new MimeMessage(session);
-			message.setFrom(new InternetAddress("mishramamta1358@gmail.com"));
+			message.setFrom(new InternetAddress("vinayaggarwal341@gmail.com"));
 			message.setRecipients(Message.RecipientType.TO,
-					InternetAddress.parse("mishramamta1358@gmail.com"));
+					InternetAddress.parse("vinayaggarwal341@gmail.com"));
 			message.setSubject("Hello Dear!");
-			message.setText("Dear Candidate," +
+			message.setText("Dear Employee," +
 					"\n\n This is a mail from www.EPRP.com!");
  
 			Transport.send(message);
